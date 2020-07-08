@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesa 1"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesa 2"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesa 3"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesa 4"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesa 5"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesa 6"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecionar Mesa"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecionar Itens Cardapio"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="478dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
